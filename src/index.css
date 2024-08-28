@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit';
+}
+
+.Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.Area{
+height: 350px;
+width: 300px;
+background-color: #b59bc4;
+margin-top: 10%;
+display:flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: center;
+border-radius: 20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.From-To{
+  display: flex;
+  gap: 20px;
+}
+#input{
+  height: 30px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+#select{
+  height: 25px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  padding: 3px;
+}
+#Btn{
+  height: 30px;
+  width: 70px;
+  background-color: rgb(233, 50, 17);
+  color: beige;
+  border-radius: 50px;
+  border: none;
+  padding: 5px;
+}
